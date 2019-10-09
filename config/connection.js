@@ -24,4 +24,4 @@ connection.query('SELECT * FROM burgers', function (error, results, fields) {
     });
 });
 
-connection.end();
+module.exports = connection;
